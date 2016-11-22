@@ -1,0 +1,27 @@
+[
+    {
+        "max_depth": 7,
+        "subsample": 0.9,
+        "tree_method": "exact",
+        "eval_metric": "auc",
+        "objective": "binary:logistic",
+        "min_child_weight": 4,
+        "silent": 1,
+        "scale_pos_weight": 2,
+        "booster": "gbtree",
+        "colsample_bytree": 0.9,
+        "seed": 27,
+        "gamma": 0.6,
+        "eta": 0.3
+    },
+    {
+        "nfolds": 4,
+        "random state": 2016,
+        "PCAkey": false,
+        "PCAgraph": false,
+        "PCAkeyGS": false,
+        "SEQoriginal": false,
+        "Oversampling": false,
+        "GridSearch": true
+    }
+]
